@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Musica</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+</head>
+<body>
+
+    <!------ Player ------>
+
+    <main class="player">
+
+    <!------ Title ------>
+
+        <h1 id="title" class="title"></h1>
+
+         <!------ Cover ------>
+
+         <img src="" alt="Imagen" class="cover" id="cover">
+
+         <!------ Audio HTML ------>
+
+         <!------ Progress Bar ------>
+         
+         <audio src="" id="audio"></audio>
+
+         <div id="progress-container" class="progress-container">
+             <section id="progress" class="progress"></section>
+         </div>
+
+         <!------ Controls ------>
+
+         <section class="controls">
+             <button class="prev">
+                 <i id="prev" class="fas fa-backward"></i>
+             </button>
+             <button  class="play">
+                 <i id="play" class="fas fa-play"></i>
+             </button>
+             <button  class="next">
+                 <i id="next" class="fas fa-forward"></i>
+             </button>
+         </section>
+
+         <!------ Songs Lists ------>
+
+         <ul class="songs" id="songs">
+            <!-- <li> <img class="img1" src="/img/descarga.jpeg"> <a href="#"></a>A coustic breeze</li>
+             <li class="active"> <img class="img2" src="/img/descarga (1).jpeg"> <a href="#"></a>A new beginning</li>
+             <li> <img class="img2" src="/img/descarga (2).jpeg"> <a href="#"></a>Creative minds</li>--> 
+         </ul>
+
+    </main>   
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
